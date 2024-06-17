@@ -1,17 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 @layer base {
-  *{
-    @apply font-primary scroll-smooth
+  * {
+    @apply font-primary scroll-smooth;
   }
   body {
     @apply bg-white leading-loose;
   }
-  
-  .h1{
-    @apply text-[36px] xl:text-[44px] leading-[1.4] font-semibold tracking-wider
+
+  .h1 {
+    @apply text-[36px] xl:text-[44px] leading-[1.4] font-semibold tracking-wider;
   }
 }
-  

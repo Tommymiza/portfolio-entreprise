@@ -1,16 +1,14 @@
-import AboutItem from "@/components/page/about/about";
 import HomePage from "@/components/page/homePage/home";
-import ServicePage from "@/components/page/service/service";
-import React, { FunctionComponent } from "react";
+import { FunctionComponent } from "react";
 
 const Home: FunctionComponent = () => {
-    return (
-        <div>
-            <HomePage />
-            <ServicePage />
-            <AboutItem />
-        </div>
-    );
+  return (
+    <div className="mt-24 md:mx-28 sm:mx-12">
+      <HomePage />
+      {/* <ServicePage /> */}
+      {/* <AboutItem /> */}
+    </div>
+  );
 };
 
 export default Home;

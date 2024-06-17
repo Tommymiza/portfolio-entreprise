@@ -1,15 +1,7 @@
-'use client'
-import React, { FunctionComponent } from "react";
-import { motion } from "framer-motion"
-import Image from "next/image";
+"use client";
+import { FunctionComponent } from "react";
 const ImageHome: FunctionComponent = () => {
-    return(
-        <div className="w-full h-full">
-            <div className="w-[600px] h-[600px] relative">
-                <Image src="/landing.png" className="object-contain" priority quality={100} fill alt="logo"></Image>
-            </div>
-        </div>
-    )
-}
+  return <div className="w-full h-full relative"></div>;
+};
 
-export default ImageHome
+export default ImageHome;
