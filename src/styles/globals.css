@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *{
+    @apply font-primary scroll-smooth
+  }
+  body {
+    @apply bg-white leading-loose;
+  }
+  
+  .h1{
+    @apply text-[36px] xl:text-[44px] leading-[1.4] font-semibold tracking-wider
+  }
+}
+  
